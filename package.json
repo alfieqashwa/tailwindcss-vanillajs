@@ -1,0 +1,17 @@
+{
+  "name": "Vanila-Js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "keywords": [],
+  "author": "Alfie Qashwa <alfieqashwa@gmail.com> (example.com)",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.5",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
